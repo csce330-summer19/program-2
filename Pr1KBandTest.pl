@@ -149,9 +149,9 @@ main:-scoreQ1(S1) ,write('Query 1 score  = '),write(S1),nl,
       scoreQ7(S7) ,write('Query 7 score  = '),write(S7),nl,
       scoreQ8(S8) ,write('Query 8 score  = '),write(S8),nl,
       scoreQ9(S9) ,write('Query 9 score  = '),write(S9),nl,
-      scoreQ9(S10),write('Query 10 score = '),write(S10),nl,
+      scoreQ10(S10),write('Query 10 score = '),write(S10),nl,
       Score is S1+S2+S3+S4+S5+S6+S7+S8+S9+S10,
       write(Score).
 
-:- main.
+:- main,halt.
 
