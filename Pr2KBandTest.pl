@@ -91,7 +91,7 @@ released('Batman Begins',2005).
 
 
 
-:-['Pr1.pl'].
+:-['Pr2.pl'].
 
 scoreQ1(S):- (q1, S is 0);(\+ q1, S is 5).
 
